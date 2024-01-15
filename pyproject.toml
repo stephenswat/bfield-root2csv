@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bfield-root2csv"
+version = "0.1.0"
+description = ""
+authors = ["Stephen Nicholas Swatman"]
+readme = "README.md"
+packages = [{include = "bfield-root2csv"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+uproot = "^5.2.1"
+tqdm = "^4.66.1"
+
+[tool.poetry.scripts]
+bfield-root2csv = "bfield-root2csv.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

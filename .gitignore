@@ -1,0 +1,9 @@
+setup.py
+build/
+dist/
+*.so
+__pycache__/
+*.egg-info/
+*.csv
+.pytest_cache/
+*.pdf
